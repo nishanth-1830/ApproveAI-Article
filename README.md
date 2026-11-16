@@ -1,48 +1,101 @@
-# ApproveAI: An AI-Based Request Analysis and Approval System
+# ApproveAI – AI-Powered Request Analysis & Approval System
 
-## Introduction
+<p align="center">
+  <strong>Making request reviews smarter, simpler, and more organised with Artificial Intelligence.</strong>
+</p>
 
-In many organizations and institutions, requests are handled manually. Reviewing each request takes time and effort, especially when there are many requests to process. To make this process easier and faster, ApproveAI is developed as an AI-based request analysis and approval system.
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-Programming%20Language-blue?logo=python" alt="Python">
+  <img src="https://img.shields.io/badge/Streamlit-Web%20Framework-FF4B4B?logo=streamlit" alt="Streamlit">
+  <img src="https://img.shields.io/badge/Google%20Gemini-AI%20Integration-4285F4?logo=google" alt="Google Gemini">
+  <img src="https://img.shields.io/badge/SQLite-Database-003B57?logo=sqlite" alt="SQLite">
+</p>
+
+---
+
+## Overview
+
+**ApproveAI** is an AI-based request analysis and approval system designed to simplify the process of reviewing submitted requests.
+
+Traditional approval processes often require manual review, which can take time and effort. ApproveAI uses Google Gemini AI to analyse requests, generate summaries, identify priorities, and provide recommendations to help reviewers make informed decisions.
+
+The system supports human decision-making; the final approval or rejection decision remains with the reviewer.
 
 ## Problem Statement
 
-Traditional approval systems require people to read and review every request manually. This process can be time-consuming and may lead to delays. Sometimes, important information is also missing from the submitted requests.
+Manual request approval processes can create several challenges:
+
+- Time-consuming request reviews.
+- Delays in processing multiple requests.
+- Difficulty identifying important information.
+- Missing details in submitted requests.
+- Challenges in maintaining request history.
 
 ## Proposed Solution
 
-ApproveAI uses Artificial Intelligence (AI) to analyze submitted requests and provide useful suggestions to the reviewer. It helps users understand the request, identify its priority, and find missing information before making an approval decision.
+ApproveAI provides a simple web-based platform where users can submit requests and receive AI-generated analysis.
+
+The system helps reviewers understand each request through summaries, priority suggestions, recommendations, and missing-information checks.
 
 ## Key Features
 
-1. **Request Submission:** Users can submit their requests through a simple interface.
-2. **AI Analysis:** Gemini AI analyzes the submitted request and generates useful information.
-3. **Request Summary:** The system provides a short summary of the request.
-4. **Priority Identification:** AI suggests whether the request has high, medium, or low priority.
-5. **Recommendations:** The system provides suggestions to help the reviewer make a decision.
-6. **Approval and Rejection:** The reviewer can approve or reject requests.
-7. **Approval History:** Previous requests and their statuses are stored for future reference.
+| Feature | Description |
+|---|---|
+| Request Submission | Submit requests through a simple interface. |
+| AI Analysis | Analyse requests using Google Gemini AI. |
+| Request Summary | Generate a brief summary of each request. |
+| Priority Identification | Suggest high, medium, or low priority. |
+| AI Recommendations | Provide suggestions to support reviewers. |
+| Approval & Rejection | Allow reviewers to make final decisions. |
+| Approval History | Store previous requests and their statuses. |
 
-## Technologies Used
+## How It Works
 
-- **Python:** Main programming language.
-- **Streamlit:** Used to develop the web application interface.
-- **Google Gemini AI:** Used to analyze requests and generate recommendations.
-- **SQLite:** Used to store requests, AI analysis, and approval status.
+1. **Submit:** A user enters a request into the application.
+2. **Analyse:** Gemini AI processes the submitted request.
+3. **Review:** The system displays the summary, priority, recommendations, and missing information.
+4. **Decide:** The reviewer approves or rejects the request.
+5. **Store:** The request and its status are saved in the database.
+
+## Technology Stack
+
+- **Python** – Main programming language.
+- **Streamlit** – Web application interface.
+- **Google Gemini AI** – AI-powered request analysis.
+- **SQLite** – Database for storing requests and analysis.
 
 ## Benefits
 
-ApproveAI reduces the manual effort required to review requests. It helps reviewers understand requests more easily, identify missing information, and organize approval activities. It also maintains a history of submitted requests, making the process more systematic.
+- Reduces manual effort during request reviews.
+- Helps reviewers understand requests more quickly.
+- Highlights missing information.
+- Organises approval activities.
+- Maintains a record of previous requests.
 
 ## Future Enhancements
 
-In the future, ApproveAI can be improved by adding user authentication, email notifications, document uploads, advanced analytics, and support for different types of organizations.
+- User authentication and role-based access.
+- Email notifications for request updates.
+- Document upload and analysis.
+- Advanced analytics and reporting.
+- Support for different organisations and institutions.
 
-## Conclusion
+## Article Publication
 
-ApproveAI is an AI-powered system designed to make the request review and approval process easier and more organized. By combining Python, Streamlit, Gemini AI, and SQLite, the project demonstrates how Artificial Intelligence can be used to improve everyday administrative processes. The system supports human decision-making by providing AI-generated analysis and recommendations, while the final approval decision remains with the reviewer.
+Read the published article on Medium:
 
-## Published Article
+**[ApproveAI: Using Artificial Intelligence to Simplify Request Approvals](https://medium.com/@kathareddy7569/approveai-using-artificial-intelligence-to-simplify-request-approvals-02413b0d8667)**
 
-Read the full article on Medium:
+## About the Author
 
-[ApproveAI: Using Artificial Intelligence to Simplify Request Approvals](https://medium.com/@kathareddy7569/approveai-using-artificial-intelligence-to-simplify-request-approvals-02413b0d8667)
+**Nishanth Reddy**  
+B.Tech – Computing and Data Science
+
+GitHub: [@nishanth-1830](https://github.com/nishanth-1830)
+
+---
+
+<p align="center">
+  <strong>ApproveAI</strong><br>
+  <em>Smarter request analysis. Better organised approvals.</em>
+</p>
